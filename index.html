@@ -7,23 +7,19 @@
         <link
             href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
             rel="stylesheet">
-        <!-- <link rel="icon" href="img/logo-ico.ico" type="image/x-icon"> -->
     </head>
     <body>
-        <!-- Video de fondo -->
         <video autoplay muted loop id="video-fondo">
             <source src="img/fondo.mp4" type="video/mp4">
         </video>
 
-        <!-- Capa de oscurecimiento -->
         <div class="overlay"></div>
 
-        <!-- Contenido principal -->
         <main class="container">
             <img src="img/RT.jpeg" alt="Logo Radical Training" class="logo">
             <h2>Consulta tu Membresía</h2>
-            <label for="cedula">Ingresa tu número de cédula:</label>
-            <input type="text" id="cedula" placeholder="Ej: 1234567890"
+            <label for="telefono">Ingresa tu número de teléfono:</label>
+            <input type="text" id="telefono" placeholder="Ej: 3101234567"
                 autocomplete="off">
             <button onclick="consultar()">Consultar</button>
             <div class="resultado" id="resultado"></div>
